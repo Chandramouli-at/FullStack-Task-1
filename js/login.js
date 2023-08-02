@@ -10,7 +10,7 @@ $('#loginBtn').click(function () {
     // Ajax request to login.php
     $.ajax({
         type: 'POST',
-        url: 'chandramouliat.infinityfreeapp.com/login.php',
+        url: 'https://chandramouliat.infinityfreeapp.com/login.php',
         data: {username: username, password: password},
         success: function(res){
             if(res === 'Hi')   window.location.href = "register.html";
