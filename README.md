@@ -84,7 +84,7 @@ To run the application you have to follow these:
 3. Start the MySQL Server
 4. Start the MongoDB Server(No need, if MongoDB Cloud is used).
 5. Ensure that you have the **.env** file.
-6. Ensure that you run `composer install` once. (No need to install every time. Install only at the first time)
+6. Ensure that you run `composer install` once. (No need to install every time. Install only the first time)
 
 **Start PHP Server**
 1. If you are using **XAMPP**, start the PHP server in the XAMPP.
@@ -109,4 +109,4 @@ To run the application you have to follow these:
 3. The keys used in this `.env` file are `DB_HOST`, `DB_USERNAME`, `DB_PASSWORD`, `DB_DATABASE`, `MONGO_CLUSTER`, `MONGO_DATABASE`, `MONGO_COLLECTION`.
 
 **Composer Files**
-1. To connect **MongoDB** with the **PHP**. Use the command `composer install` once. It installs the necessary dependencies used to connect MongoDB with PHP. (If "composer: command not found", make sure you have the composer path in the environment variables)
+1. To connect **MongoDB** with the **PHP**. Use the command `composer install` once (No need to install every time. Install only the first time). It installs the necessary dependencies used to connect MongoDB with PHP. (If "composer: command not found", make sure you have the composer path in the environment variables)
