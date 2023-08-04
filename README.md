@@ -53,7 +53,7 @@ Therefore, the application is **not hosted online** but instead is created in th
  2. MySQL
  3. MongoDB
  4. Redis
- 5. Composer(Manual installation of MongoDB extension had many issues in my case. So, I used Composer, a PHP manager to install MongoDB).
+ 5. Composer(In my case, Manual installation of the MongoDB extension had many issues. So, I used Composer to install MongoDB).
 
 **PHP**
 1. One easiest way to install PHP is **XAMPP**. XAMPP is a widely used package that includes Apache, PHP, MySQL, and Perl.
@@ -108,4 +108,4 @@ To run the application you have to follow these:
 3. The keys used in this `.env` file are `DB_HOST`, `DB_USERNAME`, `DB_PASSWORD`, `DB_DATABASE`, `MONGO_CLUSTER`, `MONGO_DATABASE`, `MONGO_COLLECTION`.
 
 **Composer Files**
-1. To connect **MongoDB** with the **PHP**. Use the command `composer install` once. It installs the necessary dependencies used to connect MongoDB with PHP. (If `"composer command not found"`, make sure you have the composer path in the environment variables)
+1. To connect **MongoDB** with the **PHP**. Use the command `composer install` once. It installs the necessary dependencies used to connect MongoDB with PHP. (If "composer: command not found", make sure you have the composer path in the environment variables)
