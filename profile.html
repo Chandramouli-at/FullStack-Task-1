@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/profile.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="navbar">
+        <div class="container">
+            <a class="navbar-brand me-2" href="/index.html">
+                <img
+                src="./assets/Logo.jpg"
+                height="40"
+                alt="logo"
+                loading="lazy"
+                style="margin-top: -1px;"
+                />
+            </a>
+
+            <div class="logoutBox">
+                <div class="logout"><button type="button" id="logoutBtn" class="btn btn-danger">Logout</button></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="detailsBox" id="detailsBox" style="display: none;">
+        <div id="detailsContainer" class="detailsContainer">
+            <h2 class="title">Profile</h2>
+            <div class="label">
+                <img src="./assets/user.png" alt="">
+                <p>Name: <span id="displayName"></span></p>
+            </div>
+            <div class="label">
+                <img src="./assets/age.png" alt="">
+                <p>Age: <span id="displayAge"></span></p>
+            </div>
+            <div class="label">
+                <img src="./assets/dob.png" alt="">
+                <p>DOB: <span id="displayDob"></span></p>
+            </div>
+            <div class="label">
+                <img src="./assets/email.png" alt="">
+                <p>Email: <span id="displayEmail"></span></p>
+            </div>
+            <div class="label">
+                <img src="./assets/contact.png" alt="">
+                <p>Contact: <span id="displayContact"></span></p>
+            </div>
+            <div class="button">
+                <button type="button" id="updateBtn" class="btn btn-primary btn-block mb-2">Update</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="formBox" id="formBox" style="display: none;">
+        <div class="formContainer" id="formContainer">
+            <h2 class="title">Profile</h2>
+
+            <div class="nameBox">
+                <div class="inputBox">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname">
+                </div>
+                <div class="inputBox">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age">
+            </div>
+
+            <div class="inputBox">
+                <label for="dob">DOB</label>
+                <input type="date" name="dob" id="dob">
+            </div>
+
+            <div class="inputBox">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="inputBox">
+                <label for="contact">Contact</label>
+                <input type="number" name="contact" id="contact">
+            </div>
+
+            <div class="buttons">
+                <div class="cancel"><button type="button" id="cancelBtn" class="btn btn-outline-primary">Cancel</button></div>
+                <div class="save"><button type="button" id="saveBtn" class="btn btn-primary">Save</button></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="./js/profile.js"></script>
+  </body>
+</html>

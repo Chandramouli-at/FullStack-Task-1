@@ -3,6 +3,15 @@
     src: url("./JosefinSans-VariableFont_wght.ttf");
 } */
 
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+}
+
 body {
     background-image: url("../assets/Wave3.png");
     background-repeat: no-repeat;
@@ -35,6 +44,7 @@ input {
     cursor: pointer;
 }
 
+/* Show/Hide button */
 .password_input {
     position: relative;
 }

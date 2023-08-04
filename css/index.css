@@ -1,0 +1,65 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/Wave3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    user-select: none;
+}
+
+#navbar {
+    box-shadow: 1px 1px 20px rgb(173, 192, 255);
+}
+
+.containerBox {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 {
+    margin: auto 30%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.head {
+    color: rgb(0, 3, 88);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.buttons button {
+    width: 100%;
+}
+
+
+@media (max-width: 426px) {
+    .section1 {
+        margin: 7% 10% auto;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 427px) and (max-width: 769px) {
+    .section1 {
+        margin: 7% 15% auto;
+    }
+}
