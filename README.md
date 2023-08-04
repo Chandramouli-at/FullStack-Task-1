@@ -84,10 +84,11 @@ To run the application you have to follow these:
 3. Start the MySQL Server
 4. Start the MongoDB Server(No need, if MongoDB Cloud is used).
 5. Ensure that you have the **.env** file.
+6. Ensure that you run `composer install` once. (No need to install every time. Install only at the first time)
 
 **Start PHP Server**
 1. If you are using **XAMPP**, start the PHP server in the XAMPP.
-2. If you are using a **command prompt**, use the command `php -S localhost:port` in the source directory. You can specify the port. (If you want to start the php server from any directory, make sure you put the path of **PHP** in the path in the environment variables). (If the server is not starting, make sure you have no other PHP process running in the background. This can be checked in the **process** tab in the task manager.)
+2. If you are using a **command prompt**, use the command `php -S localhost:port` in the source directory. You can specify the port. (If you want to start the php server from any directory, make sure you put the path of **PHP** in the environment variables). (If the server is not starting, make sure you have no other PHP process running in the background. This can be checked in the **process** tab in the task manager.)
 
 **Start Redis Server**
 1. You can start the **Redis** server as a startup service. This can be done during the installation of the Redis.
